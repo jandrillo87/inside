@@ -2011,7 +2011,7 @@ public class InsideUtilServiceImpl implements InsideUtilService {
     boolean devuelveError = false;
     Pattern pattern = Pattern.compile(REGEX_EMAIL);
     Matcher matcher;
-
+    
     listaEmails = emails.split(";");
     for (String mail : listaEmails) {
       matcher = pattern.matcher(mail);
